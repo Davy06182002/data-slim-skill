@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS / 编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 瘦身产物（本地生成，不入库）
+*.slim.*
+.data-slim/
+ledger.db
+
+# 打包中间件
+*.zip
+dist/
+build/
